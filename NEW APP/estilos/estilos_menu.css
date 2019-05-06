@@ -1,0 +1,160 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family:verdana;
+    /*background-image:url(../imagenes/fondo_blanco_5.png);*/
+    background-color:rgb(82, 78, 78);
+}
+
+
+header{
+    width:98%;
+    height:auto;
+    background-color:#f5d002;
+    color:black;
+    font-size:30px;
+    padding:2%;
+}
+
+#titulo{
+    background-color:rgb(82, 78, 78);
+    width:92%;
+    padding:5%;
+    text-align:center;
+    font-size:22px;
+    color:white;
+    text-shadow:2px 2px 2px black;
+    border-bottom:2px double black;
+}
+
+#contenedor_logo{
+    border-bottom:1px solid black;
+}
+
+input{
+    margin:auto;
+    width:50%;
+    padding:1%;
+    background-color:#f5d002;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    border:1px solid gray;
+    display:none;
+}
+
+input:hover{
+    transform:scale(1.1);
+}
+
+.teoria{
+    margin-left:2%;
+    margin-top:8%;
+    width:90%;
+    height:auto;
+    padding:2%;
+    background-color:black;
+    color:white;
+    opacity:0.7;
+    border:3px dashed #f5d002;
+    font-size:18px;
+    display:none;
+}
+
+
+.opciones{
+    width:90%;
+    height:auto;
+    margin-left:-100%;
+    padding:6%;
+    font-size:26px;
+    background-image:url("../imagenes/fondo_blanco_5.png");
+    background-attachment: fixed;
+    border-bottom:1px double gray;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+li{
+    margin-top:3%;
+}
+
+li:hover{
+    color:gray;
+}
+
+#inductivos{
+    display:none;
+    font-size:22px;
+}
+
+#capacitivos{
+    display:none;
+    font-size:22px;
+}
+
+#resistivos{
+    display:none;
+    font-size:22px;
+}
+
+#informacion_personal{
+    display:none;
+    font-size:18px;
+}
+
+#uso{
+    display:none;
+    font-size:22px;
+}
+
+.boton_flecha{
+    margin-left:86%;
+    margin-top:-2%;
+    width:11%;
+    border:1px solid rgb(73, 71, 71);
+    border-radius:23px;
+}
+
+.boton_flecha:hover{
+    transform:scale(1.2);
+}
+
+#flecha_11{
+    display:none;
+}
+
+#flecha_22{
+    display:none;
+}
+
+#flecha_33{
+    display:none;
+}
+
+#flecha_44{
+    display:none;
+}
+
+#flecha_55{
+    display:none;
+}
+
+.instrucciones{
+    width:100%;
+    margin:auto;
+}
+
+footer{
+    margin-top:10%;
+    padding:3%;
+    width:98%;
+    height:30px;
+    background-color:black;
+    text-align:center;
+    color:white;
+    font-size:12.5px;
+}
